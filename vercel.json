@@ -1,0 +1,17 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "NEXTAUTH_URL": {
+      "type": "string",
+      "description": "https://ticktock-timesheet-dep.vercel.app"
+    },
+    "NEXTAUTH_SECRET": {
+      "type": "string",
+      "description": "14b21b09b011600c91a5973d1497d65b"
+    }
+  }
+}
